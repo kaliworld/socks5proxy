@@ -1,7 +1,7 @@
 # socks5proxy
 这是一个代理池本地客户端，实现了socks的监听和转发，勉强能用
 
-利用http://www.dmdaili.com/的付费代理实现的socks5提取，用于实现绕过waf，默认在127.0.0.1:12345启动监听端口
+利用 http://www.dmdaili.com/ 的付费代理实现的socks5提取，用于实现绕过waf，默认在127.0.0.1:12345启动监听端口
 默认一次获取45个代理，30秒后刷新代理池
 ```
 import socket
